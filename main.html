@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pertemuan 7</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Muhammad Nur Faadil</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!--END NAVBAR-->
+
+    <!--HERO SECTION-->
+      <section class="hero-section text-white d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Tugas Pertemuan 7</h1>
+                    <p class="lead mb-4">Belajar bootstrap, yaitu framework untuk building web</p>
+                    <button class="btn btn-light btn-lg px-4 me-2">Get Started</button>
+                    <button class="btn btn-outline-light btn-lg px-4">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END HERO SECTION-->
+
+
+
+    <!--Product-->
+    <div class="container py-5">
+        <div class="row g-4">
+            <!-- Service Card 1 -->
+            <div class="col-md-4">
+                <div class="service-card hover-lift">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <div class="icon-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                    class="bi bi-code-slash" viewBox="0 0 16 16">
+                                    <path
+                                        d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
+                                </svg>
+                            </div>
+                            <h3 class="h4 mb-2">Web Development</h3>
+                            <p class="text-center mb-0">Modern solutions for your digital presence</p>
+                        </div>
+                        <div class="service-card-back">
+                            <h4 class="mb-3">Our Expertise</h4>
+                            <ul class="feature-list">
+                                <li>Custom Website Development</li>
+                                <li>Responsive Design</li>
+                                <li>Performance Optimization</li>
+                                <li>SEO Integration</li>
+                            </ul>
+                            <button class="btn btn-primary mt-4">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Service Card 2 -->
+            <div class="col-md-4">
+                <div class="service-card hover-lift">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <div class="icon-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                    class="bi bi-palette" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM5.5 7a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+                                    <path
+                                        d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8zm-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7z" />
+                                </svg>
+                            </div>
+                            <h3 class="h4 mb-2">UI/UX Design</h3>
+                            <p class="text-center mb-0">Crafting beautiful user experiences</p>
+                        </div>
+                        <div class="service-card-back">
+                            <h4 class="mb-3">Design Services</h4>
+                            <ul class="feature-list">
+                                <li>User Interface Design</li>
+                                <li>User Experience Research</li>
+                                <li>Prototyping</li>
+                                <li>Design Systems</li>
+                            </ul>
+                            <button class="btn btn-primary mt-4">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Service Card 3 -->
+            <div class="col-md-4">
+                <div class="service-card hover-lift">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <div class="icon-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                    class="bi bi-graph-up" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z" />
+                                </svg>
+                            </div>
+                            <h3 class="h4 mb-2">Digital Marketing</h3>
+                            <p class="text-center mb-0">Growth strategies that deliver results</p>
+                        </div>
+                        <div class="service-card-back">
+                            <h4 class="mb-3">Marketing Solutions</h4>
+                            <ul class="feature-list">
+                                <li>SEO Optimization</li>
+                                <li>Content Strategy</li>
+                                <li>Social Media Marketing</li>
+                                <li>Analytics & Reporting</li>
+                            </ul>
+                            <button class="btn btn-primary mt-4">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END PRODUCT-->
+
+
+    <!--FOOTER-->
+    <footer class="gradient-footer text-white py-5">
+        <div class="container">
+          <div class="row g-4">
+            <!-- Company Info -->
+            <div class="col-lg-4">
+              <h5 class="fw-bold mb-3">FlowSpace</h5>
+              <p class="opacity-75">Creating beautiful digital experiences with modern design solutions for forward-thinking
+                companies.</p>
+              <div class="d-flex gap-2 mt-4">
+                <a href="#" class="social-icon">
+                  <svg width="18" height="18" fill="white" viewBox="0 0 24 24">
+                    <path
+                      d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                  </svg>
+                </a>
+                <a href="#" class="social-icon">
+                  <svg width="18" height="18" fill="white" viewBox="0 0 24 24">
+                    <path
+                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                  </svg>
+                </a>
+                <a href="#" class="social-icon">
+                  <svg width="18" height="18" fill="white" viewBox="0 0 24 24">
+                    <path
+                      d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+      
+            <!-- Quick Links -->
+            <div class="col-lg-2 col-md-4">
+              <h6 class="fw-bold mb-3">Quick Links</h6>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="#" class="footer-link">About Us</a></li>
+                <li class="mb-2"><a href="#" class="footer-link">Services</a></li>
+                <li class="mb-2"><a href="#" class="footer-link">Portfolio</a></li>
+                <li class="mb-2"><a href="#" class="footer-link">Contact</a></li>
+              </ul>
+            </div>
+      
+            <!-- Resources -->
+            <div class="col-lg-2 col-md-4">
+              <h6 class="fw-bold mb-3">Resources</h6>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="#" class="footer-link">Blog</a></li>
+                <li class="mb-2"><a href="#" class="footer-link">Documentation</a></li>
+                <li class="mb-2"><a href="#" class="footer-link">Support</a></li>
+                <li class="mb-2"><a href="#" class="footer-link">Privacy Policy</a></li>
+              </ul>
+            </div>
+      
+            <!-- Newsletter -->
+            <div class="col-lg-4">
+              <h6 class="fw-bold mb-3">Newsletter</h6>
+              <p class="opacity-75">Stay updated with our latest news and updates.</p>
+              <div class="input-group mt-3">
+                <input type="email" class="form-control newsletter-input" placeholder="Enter your email">
+                <button class="btn btn-light px-4" type="button">Subscribe</button>
+              </div>
+            </div>
+          </div>
+      
+          <hr class="my-4 opacity-25">
+      
+          <!-- Copyright -->
+          <div class="row align-items-center">
+            <div class="col-md-6 text-center text-md-start">
+              <small class="opacity-75">© 2025 Muhammad Nur Faadil</small>
+            </div>
+            <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+              <a href="#" class="footer-link me-3"><small>Terms</small></a>
+              <a href="#" class="footer-link me-3"><small>Privacy</small></a>
+              <a href="#" class="footer-link"><small>Cookies</small></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <!--END FOOTER-->
+
+</body>
+</html>
